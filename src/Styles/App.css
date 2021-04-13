@@ -1,0 +1,58 @@
+body {
+  background-color: #06133b;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.header {
+  color: #c5e2ec;
+  font-family: 'Kaushan Script', cursive;
+  
+}
+
+.game {
+  color: #c5e2ec; 
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardDiv {
+  background-image: linear-gradient(#d5bd4c, #b88a23);
+  width: 230px;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.cardDiv:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 10px #c5e2ec;
+}
+
+.cardImage {
+  border-radius: 10px;
+  height: 200px;
+  width: auto;
+  margin-top: 20px;
+}
+
+.nameText {
+  color: #06133b;
+  margin-bottom: 20px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+  margin: 4px;
+  padding: 0px;
+}
